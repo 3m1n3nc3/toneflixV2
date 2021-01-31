@@ -19,9 +19,9 @@
         </a>
     </div>
     <div class="copyright text-secondary">
-        <span> © {{ now()->year }} NiNaCoder Group. All Rights Reserved. </span>
+        <span> © {{ now()->year }} ToneFlix Music. All Rights Reserved. </span>
     </div>
     <div class="love text-secondary">
-        <span>Tremendously thankful for the support of Aquafina &amp; Oreo. </span>
+        <span>Made with Love. </span>
     </div>
 </div>
