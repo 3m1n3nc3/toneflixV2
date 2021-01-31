@@ -1,0 +1,33 @@
+**/.DS_Store
+sitemap.xml
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+
+
+/public/favicon.ico
+/.idea/
+/storage/app/Laravel/
+/storage/media-library/
+/public/js/engine.js
+/storage/app/analytics/
+/storage/app/purifier/
+/storage/app/MusicEngine/
+/storage/app/backup-temp/
+/storage/app/self-updater-new-version
+/storage/app/task-schedule.output
+/config/settings.php

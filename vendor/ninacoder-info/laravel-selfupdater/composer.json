@@ -1,0 +1,78 @@
+{
+  "name": "ninacoder-info/laravel-selfupdater",
+  "description": "Providing an auto-updating functionality for your self-hosted Laravel application.",
+  "license": "MIT",
+  "keywords": [
+    "self-update",
+    "self update",
+    "auto-update",
+    "auto update",
+    "update",
+    "laravel",
+    "laravel application",
+    "self-hosted laravel application"
+  ],
+  "support": {
+    "issues": "https://github.com/ninacoder-info/laravel-selfupdater/issues",
+    "source": "https://github.com/ninacoder-info/laravel-selfupdater"
+  },
+  "authors": [
+    {
+      "name": "NiNaCoder",
+      "email": "ninacoder2510@gmail.com",
+      "homepage": "https://ninacoder.info",
+      "role": "Developer"
+    },
+    {
+      "name": "Holger Lösken",
+      "email": "holger.loesken@ninacoder-info.de",
+      "homepage": "http://codedge.de",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "NiNaCoder\\Updater\\": "src/"
+    },
+    "files": [
+        "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "NiNaCoder\\Updater\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NiNaCoder\\Updater\\UpdaterServiceProvider"
+      ],
+      "aliases": {
+        "Updater": "NiNaCoder\\Updater\\UpdaterFacade"
+      }
+    }
+  },
+  "require": {
+    "php": ">=7.3",
+    "ext-json": "*",
+    "ext-zip": "*",
+    "laravel/framework": "^6.0|^7.0|^8.0",
+    "guzzlehttp/guzzle": "6.*"
+  },
+  "require-dev": {
+    "dg/bypass-finals": "^1.1",
+    "mikey179/vfsstream": "^1.6",
+    "mockery/mockery": "^1.3",
+    "orchestra/testbench": "^4.0|^5.0",
+    "phpunit/phpunit": "^8.4|^9.0"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  }
+}
