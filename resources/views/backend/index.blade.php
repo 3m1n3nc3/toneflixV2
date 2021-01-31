@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Music Engine - Control Panel</title>
+    <title>Toneflix - Control Panel</title>
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     <!-- Custom fonts for this template-->
