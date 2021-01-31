@@ -30,4 +30,4 @@ Homestead.json
 /storage/app/backup-temp/
 /storage/app/self-updater-new-version
 /storage/app/task-schedule.output
-/config/settings.php
+# /config/settings.php
